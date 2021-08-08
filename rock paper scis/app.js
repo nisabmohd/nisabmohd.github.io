@@ -45,7 +45,7 @@ if(valp==2 && valc==1){
 if(valp==2 && valc==3){
     document.getElementById("res").innerHTML="computer won";
     cp++;
-    document.getElementById("cr").innerHTML=pp;
+    document.getElementById("cr").innerHTML=cp;
 }
 if(valp==3 && valc==1){
     document.getElementById("res").innerHTML="computer won";
