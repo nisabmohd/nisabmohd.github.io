@@ -1,0 +1,50 @@
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    height: 65vh;
+    width: 100%;
+}
+.participants{
+    flex-direction: column;
+    display: flex;
+}
+.plus1,.minus1,.plus2,.minus2{
+    width: 1.75vw;
+    height: 3.5vh;
+    border-radius: 100%;
+    border: 1.2px solid black;
+    margin: 2px 8px;
+    cursor: pointer;
+}
+.head{
+    margin: 12px 21px;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5vh;
+}
+.name1,.name2{
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1px 6px;
+}
+.first,.second{
+    margin: 6px 22px;
+    flex-direction: row;
+    display: flex;
+}
+#reset{
+    margin: 12px 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    height: 3vh;
+    width: 5.5vw;
+}
+#select{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px 30px;
+}
