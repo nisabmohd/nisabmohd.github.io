@@ -18,4 +18,4 @@ HTML, CSS, JS
 
 
 
-nisabmohd.github.io/Educational-website-project-main/index.html
+http://nisabmohd.github.io/Educational-website-project-main/index.html
