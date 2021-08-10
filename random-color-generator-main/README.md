@@ -8,3 +8,4 @@ Random colors generator using HTML CSS and JavaScript
 
 [@nisabmohd](https://github.com/nisabmohd)
 
+https://nisabmohd.github.io/random-color-generator-main/index.html
