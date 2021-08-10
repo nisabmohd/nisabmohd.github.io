@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h3 id="head">Rock Paper Scissor</h3>
+        <div class="player">
+            <div class="name">
+                <h4 class="n">
+                    player:
+                </h4>
+            </div>
+            <div class="images">
+                <img src="rock.png" id="pimg1"  alt="rock">
+                <img src="paper.png" id="pimg2" alt="paper">
+                <img src="scis.png"id="pimg3"  alt="scissor">
+            </div>
+        </div>
+        <div class="computer">
+            <div class="name">
+                <h4 class="n">
+                    computer:
+                </h4>
+            </div>
+            <div class="cimages" id="cc">
+                <img src="rock.png" id="cimg1" alt="rock">
+                <img src="paper.png" id="cimg2" alt="paper">
+                <img src="scis.png" id="cimg3" alt="scissor">
+            </div>
+        </div>
+        <div class="result">
+            <h3 id="res">choose your choice</h3>
+            <div class="score">
+                player:
+                <p id="pr">0</p>
+                computer:
+                <p id="cr">0</p>
+            </div>
+            <button id="reset" onclick="window.location.reload()">reset</button>
+        </div>
+        <div class="git">
+            <img src="git.png" alt="github">
+            <a href="https://github.com/nisabmohd" id="github">github</a>
+        </div>
+        
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

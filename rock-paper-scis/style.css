@@ -1,0 +1,124 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height:85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 6vh;
+}
+.images img{
+    max-height: 18vh;
+    max-width: 6.8vw;
+    cursor: pointer;
+    padding: 6px 6px;
+    border-radius: 100%;
+    min-width: 8vh;
+    min-height: 6vh;
+}
+.cimages img{
+    max-height: 18vh;
+    max-width: 6.8vw;
+    cursor: not-allowed;
+    border-radius: 100%;
+    padding: 6px 6px; 
+    border-radius: 100%;
+    min-width: 8vh;
+    min-height: 6vh;
+}
+.n{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2.7vh;
+    color: rgb(124, 61, 61);
+}
+#head{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.5vh;
+    color: rgb(158, 155, 155);
+}
+.git{
+    display: flex;
+    flex-direction: row;
+}
+.git img{
+    display: flex;
+    width: 4vh;
+    height: 4vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2.2vh;
+}
+.git a{
+    display: flex;
+    font-size: 0.9vw;
+    color: white;
+    width: 2vw;
+    height: 3vh;
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah', cursive;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+}
+#res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 5vh;
+    background-color: gray;
+    border-radius: 16px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.69vh;
+    margin-top: 2vh;
+    word-wrap: break-word;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    color:rgb(150, 75, 75) ;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 7vh;
+}
+#pr{
+    margin: 3px 18px;
+    margin-left: 0;
+}
+#cr{
+    margin: 3px 18px;
+    margin-left: 0;
+}
+#reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 16px;
+    background-color: rgb(156, 127, 184);
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    font-size: 1.9vh;
+    margin-bottom: 6vh;
+}
