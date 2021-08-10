@@ -1,0 +1,16 @@
+@media only screen and (max-width:693px){
+    .leftContainer {
+        width: 75%;
+    }
+    .right{
+        padding-left: 55%;
+    }
+    .left a{
+        margin: 14px 7px;
+        font-size: 9px;
+    }
+    .right a{
+        margin: 14px 7px;
+        font-size: 9px;
+    }
+}
