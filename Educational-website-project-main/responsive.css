@@ -1,0 +1,88 @@
+@media only screen and (max-width:980px){
+    .navlist{
+        flex-direction: column;
+        width: 100vh;
+        transition: ease-in;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .searchbar{
+        width: 30%;
+        text-align: center;
+        padding: 2px 12px;
+        align-items: center;
+    }
+    #search{
+        margin: 6px;
+        width: 100%;
+    }
+    .bg{
+        height: 54vh;
+    }
+    .burger{
+        display:block;
+    }
+    .navh-resp{
+        height: 34px;
+    }
+    .navVis-resp{
+        opacity: 0;
+    }
+    .mainBox{
+        flex-direction: column-reverse;
+        padding: 8px 2px
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        margin: 4px 2px
+    }
+    .forms input{
+        width: 100%;
+    }
+    .forms textarea{
+        width: 100%;
+    }
+    .firstSection {
+        height: 100vh;
+    }
+    .contactus {
+        height: 75vh;
+    }
+.bigText {
+    font-size: 17px;
+}
+.smallText {
+    font-size: 10px;
+}
+.rightSec img {
+    width: 90px;
+    height: 100px;
+}
+.leftSec img {
+    width: 90px;
+    height: 100px;
+}
+.leftSec{
+    max-width: 75%;
+}
+.leftSec .paras {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 6px;
+}
+.center{
+    font-weight: bold;
+    font-size: 16px;
+}
+.copy {
+    height: 8vh;
+    justify-content: center;
+    padding: 19px 9px;
+}
+}
