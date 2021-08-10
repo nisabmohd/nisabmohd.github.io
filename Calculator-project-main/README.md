@@ -7,3 +7,6 @@ Calculator(Standard)
  
 ## Tech Used
 HTML, CSS and JS
+
+
+https://nisabmohd.github.io/Calculator-project-main/index.html
