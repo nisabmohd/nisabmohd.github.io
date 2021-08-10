@@ -11,4 +11,11 @@ A responsive educational website using HTML,CSS and JS
 HTML, CSS, JS
 
 
+
+
+
+
+
+
+
 nisabmohd.github.io/Educational-website-project-main/index.html
