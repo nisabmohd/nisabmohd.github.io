@@ -28,9 +28,9 @@ if(valp==valc){
     document.getElementById("res").innerHTML="draw";
 }
 if(valp==1 && valc==2){
-    document.getElementById("res").innerHTML="player won";
-    pp++;
-    document.getElementById("pr").innerHTML=pp;
+    document.getElementById("res").innerHTML="computer won";
+    cp++;
+    document.getElementById("pr").innerHTML=cp;
 }
 if(valp==1 && valc==3){
     document.getElementById("res").innerHTML="player won";
@@ -38,9 +38,9 @@ if(valp==1 && valc==3){
     document.getElementById("pr").innerHTML=pp;
 }
 if(valp==2 && valc==1){
-    document.getElementById("res").innerHTML="computer won";
-    cp++;
-    document.getElementById("cr").innerHTML=cp;
+    document.getElementById("res").innerHTML="player won";
+    pp++;
+    document.getElementById("cr").innerHTML=pp;
 }
 if(valp==2 && valc==3){
     document.getElementById("res").innerHTML="computer won";
