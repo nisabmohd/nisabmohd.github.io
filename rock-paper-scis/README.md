@@ -9,4 +9,4 @@ rock paper scissor game using HTML,CSS and JS
 [@nisabmohd](https://github.com/nisabmohd)
 
 
-https://nisabmohd.github.io/rock-paper-scis/index.html
+https://nisabmohd.github.io/rock-paper-scis/index.html 
