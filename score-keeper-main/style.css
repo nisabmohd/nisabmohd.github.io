@@ -1,0 +1,73 @@
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    background-color: rgb(36, 35, 35);
+    height: 100vh;
+    width: 100%;
+}
+.scorekeeper{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.participants{
+    flex-direction: column;
+    display: flex;
+}
+.plus1,.minus1,.plus2,.minus2{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1.2px solid black;
+    margin: 2px 8px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+}
+.head{
+    margin: 12px 21px;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5vh;
+    color: white;
+    font-family: 'Rampart One', cursive;
+}
+.name1,.name2{
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1px 6px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.first,.second{
+    margin: 6px 22px;
+    flex-direction: row;
+    display: flex;
+}
+#reset{
+    margin: 12px 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    height: 3vh;
+    width: 235px;
+    height: 29px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    font-family: 'Bebas Neue', cursive;
+}
+#select{
+    font-family: 'Bebas Neue', cursive;
+    margin: 5px 30px;
+    width: 230px;
+    height: 29px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+}
