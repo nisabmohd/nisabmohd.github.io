@@ -1,0 +1,42 @@
+@media only screen and (max-width:822px){
+
+    .btn{
+        font-size: 6px;
+        width: 18vw;
+    }
+    .lang a ,.india,.left a,.right a,.pa{
+        font-weight: bold;
+        font-size: 6px;
+    }
+    .searchbar .box {
+        width: 55vw;
+        height: 18px;
+    }
+    .contents{
+        width: 55.2vw;
+        height: 19.5px;
+    }
+    #enter{
+        width: 47vw; 
+        height: 15px;
+    }
+    #main{
+    width: 25vw;
+    height: 4.75vh;
+    }
+    #sric{
+        width: 8.5px;
+        height: 8.5px;
+    }
+    #vic{
+        height: 12.5px;
+        width: 12.5px;
+    }
+    .main{
+        height: 42vh;
+    }
+    .temp{
+        width: 100%;
+        padding-left: 7vw;
+    }
+}
