@@ -1,1 +1,1 @@
-nisabmohd.github.io/tic-tac-toe/index.html
+https://nisabmohd.github.io/tic-tac-toe/index.html
