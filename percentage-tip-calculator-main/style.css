@@ -1,0 +1,79 @@
+
+*{
+    padding: 0;margin: 0;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+#head{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 6vh;
+}
+.inputT input{
+    margin: 6px 0;
+    width: 24vw;
+    height: 3.5vh;
+    padding: 3px 10px;
+    border: 1.3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.inputT input::placeholder{
+    padding: 3px 4px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.inputT input:focus{
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#calculate,.reset{
+    cursor: pointer;
+    height: 3.5vh;
+    width: 25vw;
+    margin: 6px 2px;
+    border: 1.3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+.result{
+    color: white;
+    width: 90%;
+    height: 19vh;
+    margin: 0px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 19px 2px; 
+    margin: auto;
+}
+.c{
+    color: white;
+    height: 45vh;
+
+}
