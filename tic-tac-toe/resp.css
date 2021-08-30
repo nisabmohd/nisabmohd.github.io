@@ -1,0 +1,33 @@
+@media screen and (max-width: 1260px){
+    #val {
+        width: 45px;
+    }
+    .grid-container{
+        width:250px;
+        height:250px;
+    }
+    .boxes{
+        margin-top: 0;
+    }
+    #head{
+        font-size: 25px;
+    }
+    .choose>label{
+        font-size: 10px;
+    }
+    footer img {
+        width: 38px;
+        height: 38px;
+    }
+    #follow{
+        font-size: 15px;
+    }
+    .grid-item{
+        font-size: 22.5px;
+    }
+    #reset{
+        width: 49px;
+        font-size: 11px;
+    }
+        
+}
