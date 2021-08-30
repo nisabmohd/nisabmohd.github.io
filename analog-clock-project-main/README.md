@@ -7,4 +7,4 @@ Clock using HTML, CSS and JS
 [@nisabmohd](https://github.com/nisabmohd)
 
 
-https://nisabmohd.github.io/analog-clock-project-main/index.html 
+https://nisabmohd.github.io/analog-clock-project-main/index.html
