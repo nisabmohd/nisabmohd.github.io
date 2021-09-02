@@ -1,5 +1,5 @@
 var c=0;
-let btn=document.getElementById('icon').addEventListener('click',()=>{
+let btn=document.getElementById('btn').addEventListener('click',()=>{
    if(c==0){
     
        dark();
