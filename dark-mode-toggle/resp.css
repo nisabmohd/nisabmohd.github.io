@@ -28,6 +28,7 @@
     margin: 1.25vh 1.25vh;
 }
 #icon{
+   margin-top:1.2vh;
     display: flex;
     align-items: center;
 }
