@@ -13,7 +13,7 @@ let btn=document.getElementById('btn').addEventListener('click',()=>{
 function dark(){
     c=1;
     document.getElementById('icon').innerHTML=`<img id="btn" src="download.png" alt="light">`;
-    document.getElementById('ctn').style.background=`rgb(22, 22, 22)`;
+   document.body.style.backgroundColor=`rgb(22, 22, 22)`;
     for(let i=0;i<16;i++){
     note=document.querySelectorAll('.grid1')[i];
     note.style.color=`white`;
