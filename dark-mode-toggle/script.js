@@ -22,7 +22,7 @@ function dark(){
 function light(){
     c=0;
     document.getElementById('icon').innerHTML=`<img id="btn" src="dark-mode.png" alt="dark">`;
-    document.getElementById('ctn').style.background=`white`;
+    document.body.style.backgroundColor=`white`;
     for(let i=0;i<16;i++){
     note=document.querySelectorAll('.grid1')[i];
     note.style.color=`black`;
