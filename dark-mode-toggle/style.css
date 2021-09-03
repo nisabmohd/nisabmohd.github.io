@@ -71,3 +71,8 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+#icon{
+    width: 35px;
+    height:35px;
+    border-radius:50%
+    }
