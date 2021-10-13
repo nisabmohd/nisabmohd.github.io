@@ -1,17 +1,27 @@
 .grid1{
     margin: auto;
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:459px){
     .grid1{
         margin: auto;
         width: 290px;
         height: 199px;
         font-size: 29px;
     }
+    .mytemp{
+        width:80%;
+    }
+   
+}
+@media screen and (max-width:861px){
+    .userColorBlack{
+        margin-top: -9vh;
+    }
 }
 @media screen and (max-width:1118px){
     .cm{
-        width: 95%;
+        width: 98%;
+        height: fit-content;
         background-color: rgb(33, 37, 87);
         color: white;
         padding: 5.5vh 3vw;
