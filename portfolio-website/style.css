@@ -1,0 +1,331 @@
+body{
+    scroll-behavior: smooth;
+}
+.userColor1{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+.userColor1:hover{
+    color:rgb(255, 255, 255);
+}
+.userColor2{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+.userColor3{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+}
+.userColorp{
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(255, 255, 255);
+}
+.userColor2:hover{
+    color: #7510F7;
+}
+.userColorPurple{
+    font-size: 38px;
+    font-family: 'Bebas Neue', cursive;
+    color:#7510F7;
+}
+.userColorPurples{
+    font-family: 'Bebas Neue', cursive;
+    color:#7510F7;
+}
+.userColorPurple:hover{
+    color:#7510F7;
+}
+.userColorBlack{
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    color:#000000;
+}
+.upButton{
+    color: #7510F7;
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 1px 12px;
+    height: 42px;
+    border: 2px solid #7510F7;
+}
+.upButton:hover{
+    background-color: #7510F7;
+}
+.someImg{
+    margin-top: 5vh;
+    margin-bottom: 12vh;
+}
+.logo img{
+    border: 3px solid #7510F7;
+    margin-top: 3vh;
+    border-radius: 50%;
+    max-width: 45vw;
+    max-height: 45vw;
+}
+.purplebg{
+    background-color: #7510F7;
+    color: white;
+}
+.gap{
+margin-top: 9vh;
+}
+.align{
+    z-index: -1;
+    padding: 9vh 0;
+    width:60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.someImg img{
+    max-width: 95vw;
+}
+.svg{
+    width: 65px;
+    height: 65px;
+    
+}
+.userBorder{
+    background-color: white;
+    text-align: center;
+    margin-top: -8vh;
+    margin-bottom: 6vh;
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #5c5a5f;
+    border-radius: 12px;
+    margin-bottom: 9vh;
+}
+.list{
+    list-style: none;
+}
+.size{
+    padding: 2vh 3vw;
+}
+.font{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.uf{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 29px;
+}
+.uf2{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+
+}
+.mail{
+    margin: 2vh 0;
+}
+.uf2:hover{
+    color: rgb(39, 39, 39);
+}
+.uf:hover{
+    color: white;
+}
+.connect{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24vh;
+    padding-bottom: 6vh;
+    margin-top: -6vh;
+
+}
+.footer{
+    z-index: -1;
+}
+.svgs a{
+    margin: 0 0.5vw;
+}
+.meet{
+   position: relative;
+   margin: auto;
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cm{
+    width: 65%;
+    background-color: rgb(33, 37, 87);
+    color: white;
+    padding: 5.5vh 3vw;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -45px;
+}
+.mmm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.mmm h4{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+.mmm p{
+    margin-top: 2vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen and (max-width:999px){
+    .mmm{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:645px){
+    .mmm p {
+        font-size: 12px;
+    }
+}
+
+.projects{
+    /* display: none; */
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.rdbtn{
+    margin-bottom: 29vh;
+    margin-top: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rd{
+    color: #7510F7;
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 1px 12px;
+    height: 42px;
+    border: 2px solid #7510F7;
+}#rd:hover{
+    background-color: #7510F7;
+    color: white;
+}
+.grid{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 240px;
+    margin: 0.6vw 0.6vw;
+    padding: 2vh 6px;
+    border-radius: 12px;
+}
+.grid1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 35%;
+}
+.mgn{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.pro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#topbtn{
+    padding-bottom: 1.5vh;
+}
+.one{
+    background: url("onebg.jpg");
+    opacity: 0.9;
+    color: white;
+    font-weight: bolder;
+    font-size: 47px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.two{
+    background: url("twobg.jpg");
+    opacity: 0.9;
+    color: white;
+    font-weight: bolder;
+    font-size: 47px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.three{
+    background: url("threebg.jpg");
+    opacity: 0.9;
+    color: white;
+    font-weight: bolder;
+    font-size: 47px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.four{
+    background: url("fourbg.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+    font-weight: bolder;
+    font-size: 47px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.five{
+    background: url("fivebg.png");
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+    font-weight: bolder;
+    font-size: 47px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.six{
+    background: url("sixbg.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+    font-weight: bolder;
+    font-size: 47px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+#obtn{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 2.5px solid #7510F7;
+    padding: 6px 9px;
+    border-radius: 16px;
+    display: none;
+}
+#obtn:hover{
+    background-color: #7510F7;
+
+}
+.grid1:hover  #obtn{
+    display: block;
+}
