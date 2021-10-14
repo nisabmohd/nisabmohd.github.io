@@ -31,3 +31,10 @@
         bottom: -45px;
     }
 }
+@media screen and (max-width:310px){
+    .grid1{
+        margin: auto;
+        max-width: 95%;
+        font-size: 29px;
+    }
+}
