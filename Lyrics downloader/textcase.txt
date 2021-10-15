@@ -1,2 +1,0 @@
-artist  :      Charlie puth
-title   :      we don't talk anymore
