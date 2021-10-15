@@ -286,7 +286,7 @@ margin-top: 9vh;
 }
 .one{
     background: url("onebg.jpg");
-    opacity: 1;
+    opacity: 0.8;
     color: white;
     font-weight: bolder;
     font-size: 47px;
@@ -295,7 +295,7 @@ margin-top: 9vh;
 
 .two{
     background: url("twobg.jpg");
-    opacity: 1;
+    opacity: 0.85;
     color: white;
     font-weight: bolder;
     font-size: 47px;
@@ -313,16 +313,16 @@ margin-top: 9vh;
     background: url("fourbg.jpg");
     background-size: cover;
     /* opacity: 1; */
-    color: white;
+    color: rgb(226, 204, 204);
     font-weight: bolder;
     font-size: 47px;
     font-family: 'Oswald', sans-serif;
 }
 .five{
-    background: url("fivebg.png");
+    background: url("fivebg.jpg");
     background-size: cover;
-    /* opacity: 1; */
-    color: white;
+    opacity: 0.9;
+    color: rgb(7, 6, 6);
     font-weight: bolder;
     font-size: 47px;
     font-family: 'Oswald', sans-serif;
