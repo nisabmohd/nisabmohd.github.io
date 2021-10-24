@@ -76,7 +76,7 @@ body{
 }
 .output p{
     margin-top: 8px;
-    color: white;
+    color: #00FF00;
     font-family: 'Ubuntu Mono', monospace;
 }
 .err{
