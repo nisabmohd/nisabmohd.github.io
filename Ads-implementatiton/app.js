@@ -7,25 +7,11 @@ function pop() {
         setTimeout(() => {
             document.title = "You won an iphone";
             alert("📱📱You won an iphone 📱📱")
-        }, 2000);
+        }, 10000);
        
         b = b + 1;
     }
-    if (b == 1) {
-        setTimeout(() => {
-            document.title = "Buy now - click here";
-            alert("Get your fat burned.....!!!! 🥵💪🥵")
-        }, 2000);
-        b = b + 1;
-    }
-if (b == 2) {
-    setTimeout(() => {
-        document.title = "1+ new notification ";
-        alert("Get your fat burned.....!!!! 🥵💪🥵")
-    }, 2000);
-    b = b + 1;
-}
-if (b >= 3) {
+if (b >= 1) {
     setInterval(()=>{
         document.querySelector('.alert3').style.display="block"
         document.querySelector('.alert2').style.display="block"
@@ -36,17 +22,17 @@ if (b >= 3) {
 }
 function disapper(){
     setTimeout(()=>{
-        document.querySelector('.alert3').style.display="none"
+        document.querySelector('.alert3').style.display="hidden"
         document.querySelector('.alert2').style.display="none"
         document.querySelector('.alert1').style.display="none"
-    },3500)
+    },5000)
     
 }
 
 
 function fire() {
     if (a == 0) {
-        window.open('https://nisabmohd.github.io/portfolio-website/about.html', '_blank');
+        window.open('https://nisabmohd.github.io/portfolio-website/home.html', '_blank');
         a = a + 1
         return false
     }
@@ -56,7 +42,7 @@ function fire() {
         return false
     }
     if (a == 2) {
-        window.open('https://nisabmohd.github.io/portfolio-website/blog.html', '_blank');
+        window.open('https://nisabmohd.github.io/', '_blank');
         a = a + 1
         return false
     }
