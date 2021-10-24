@@ -14,6 +14,7 @@ function func(){
 let Checkbtn=document.getElementById('Checkbtn').addEventListener('click',()=>{
     let input=document.getElementById('input').value
     if(input==str){
+        document.getElementById('done').style.display="block"
         document.getElementById('done').innerHTML=`<p>Sucess!</p>` 
         document.getElementById('error').style.display="none" 
     }
