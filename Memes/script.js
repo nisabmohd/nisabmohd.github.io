@@ -28,7 +28,7 @@ function meme() {
     let json = JSON.parse(xhr.responseText);
     let meme = json.url
     let author = json.author
-    str += `<div class="col my-2">
+    str += `<div class="col my-2 mga">
   <div class="card" style="width: 21.25rem;">
       <img src="${meme}" class="card-img-top" alt="...">
       <div class="card-body">
