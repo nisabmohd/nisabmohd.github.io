@@ -84,6 +84,7 @@ margin-top: 9vh;
 }
 .someImg img{
     max-width: 95vw;
+    margin-bottom: -48px;
 }
 .svg{
     width: 65px;
