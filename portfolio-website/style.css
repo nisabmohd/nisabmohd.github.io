@@ -265,6 +265,7 @@ margin-top: 9vh;
     margin: 0.6vw 0.6vw;
     padding: 2vh 6px;
     border-radius: 12px;
+    position: relative;
 }
 .grid1 img{
     width: 150px;
@@ -284,9 +285,16 @@ margin-top: 9vh;
 #topbtn{
     padding-bottom: 1.5vh;
 }
+#desc{
+    font-size: 30px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
 .one{
-    background: url("onebg.jpg");
-    opacity: 0.8;
+    background: url("dictbg.webp");
+    background-size: cover;
+    background-position: center;
     color: white;
     font-weight: bolder;
     font-size: 47px;
@@ -294,17 +302,19 @@ margin-top: 9vh;
 }
 
 .two{
-    background: url("twobg.jpg");
-    opacity: 0.85;
-    color: white;
+    background: url("memebg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 197, 6);
     font-weight: bolder;
     font-size: 47px;
     font-family: 'Oswald', sans-serif;
 }
 .three{
-    background: url("threebg.jpg");
-    opacity: 1;
-    color: white;
+    background: url("ytbg.webp");
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
     font-size: 47px;
     font-family: 'Oswald', sans-serif;
@@ -312,8 +322,7 @@ margin-top: 9vh;
 .four{
     background: url("fourbg.jpg");
     background-size: cover;
-    /* opacity: 1; */
-    color: rgb(226, 204, 204);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 47px;
     font-family: 'Oswald', sans-serif;
@@ -321,17 +330,16 @@ margin-top: 9vh;
 .five{
     background: url("fivebg.jpg");
     background-size: cover;
-    opacity: 0.9;
     color: rgb(7, 6, 6);
     font-weight: bolder;
     font-size: 47px;
     font-family: 'Oswald', sans-serif;
 }
 .six{
-    background: url("sixbg.jpg");
+    background: url("bgspotify.webp");
     background-size: cover;
-    opacity: 1;
-    color: white;
+    background-position: center;
+    color: greenyellow;
     font-weight: bolder;
     font-size: 47px;
     font-family: 'Oswald', sans-serif;
